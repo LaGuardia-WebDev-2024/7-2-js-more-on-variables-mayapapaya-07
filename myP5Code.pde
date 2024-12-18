@@ -24,7 +24,15 @@ void draw(){
   ellipse(x - 50, y - 50, 30, 30); // left eyeball
   ellipse(x + 50, y - 50, 30, 30); // right eyeball
   
+  fill(0,0,0); // black parts of the eyes!
+  ellipse(x - 50, y - 50, 20, 20); // left eyeball
+  ellipse(x + 50, y - 50, 20, 20); // right eyeball
+  
+  fill(252,65,65); // mouth
+  ellipse(x,y,80,40)
 
+x = mouseY
+y = mouseX
 }
 
 
